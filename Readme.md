@@ -1,12 +1,10 @@
 # Equipa
 
-* Tiago Pinto 55172
-* Ricardo Soares 54446
-* Miguel Reis 54409
+* Tiago Pinto 
+* Ricardo Soares
+* Miguel Reis 
 
 # Notas
-O pre-commit não foi utilizado. <br>
-Por lapso, o Ricardo Soares utilizou duas contas ao realizar commits (fc54446 (fc54446@alunos.fc.ul.pt) e ricardo ( ricardomcs2001@gmail.com)), e o Miguel Reis utilizou três contas (heymimal (mimalreis@gmail.com), fc54409 (fc54409@alunos.ciencias.ulisboa.pt), Miguel Reis (fc54409@alunos.fc.ul.pt)).<br>
 O programa foi testado utilizando Java17 como ambiente de execução (na máquina virtual fornecida pelo DI).
 
 
@@ -26,7 +24,6 @@ De forma a manter a hipótese de delegar votos, é possível uma pessoa voluntar
 No entanto passa a existir a possibilidade de qualquer cidadão delegar os seus votos a um delegado, seja na<br>
 totalidade, ou por tema (saúde, educação, obras públicas, imigração, etc...).
 
-## Fase 1
 ### Casos de Uso
  * **Listar as votações em curso.** Este caso de uso permite obter uma listagem das propostas de lei
     em votação neste momento.
@@ -105,10 +102,8 @@ Este comando vai iniciar dois containers:
 
 ## Terceiro passo
 
-Abrir http://localhost:8080 num browser e verificar que aparece a string "Olá Mundo".
-
-Pode ainda confirmar que consegue ver um objecto JSON em http://localhost:8080/api/cidadao/1
-
+Para correr a aplicação cliente, deve correr `client.sh`.
+Para a aplicação cliente correr de acordo com os dados na base de dados, é preciso primeiro correr run.sh.
 
 # FAQ
 
